@@ -2,11 +2,6 @@ name: Build and Release on Push
 
 on:
   push:
-    branches:
-      - main
-    # optionally, you can also release on tags:
-    # tags:
-    #   - 'v*'
 
 jobs:
   build-and-release:
