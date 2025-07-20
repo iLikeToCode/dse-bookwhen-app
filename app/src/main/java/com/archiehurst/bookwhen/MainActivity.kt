@@ -12,6 +12,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        supportActionBar?.hide()
 
         val webView = findViewById<WebView>(R.id.webView)
         webView.webViewClient = WebViewClient() // ensures it stays in-app
